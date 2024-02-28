@@ -1,0 +1,64 @@
+body, .backButton{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.category{
+    display: flex;
+    flex-direction: column; 
+}
+
+.coffee, .food, .alcohol{
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+}
+
+
+.expenses img{
+    height: 20px;
+    margin-left: 8px;
+}
+
+
+
+
+.category input{
+    margin-left: 60px;
+}
+
+.food input {
+    margin-left: 80px;
+}
+
+.alchohol input{
+    margin-left: 58px ;
+}
+
+.addButton{
+    background-color:  #2393d9;
+    color: white;
+    font-weight: bold;
+    margin-top: 90px;
+    border-radius: 7px;
+    margin-left: 76px;
+}
+
+.backButton{
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+  
+}
+.addButton, .backButton:hover{
+    cursor: pointer;
+}
+input{
+    border-width: 2px;
+    height: 25px;
+    width: 180px;
+}
+
